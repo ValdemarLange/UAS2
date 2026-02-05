@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Feb  5 00:14:00 2026
+# Process ID         : 49968
+# Current directory  : /home/valdemar/GitHub/AAPL/example_2_clk_led/example_2_clk_led.runs/impl_1
+# Command line       : vivado -log Sindri.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Sindri.tcl -notrace
+# Log file           : /home/valdemar/GitHub/AAPL/example_2_clk_led/example_2_clk_led.runs/impl_1/Sindri.vdi
+# Journal file       : /home/valdemar/GitHub/AAPL/example_2_clk_led/example_2_clk_led.runs/impl_1/vivado.jou
+# Running On         : valde-thinkpad
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 5 PRO 5650U with Radeon Graphics
+# CPU Frequency      : 3909.563 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 15523 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 19818 MB
+# Available Virtual  : 15156 MB
+#-----------------------------------------------------------
+source Sindri.tcl -notrace
