@@ -1,0 +1,6 @@
+numpy
+opencv_python
+scikit-learn
+exifread
+icecream
+tqdm
