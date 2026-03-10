@@ -15,6 +15,8 @@ def main():
 
     i = 0
 
+    marker_size = 0.0935
+
     translation = []
 
     while True:
@@ -27,7 +29,7 @@ def main():
         frame_markers = cv2.aruco.drawDetectedMarkers(img.copy(), corners, ids)
 
         rvecs, tvecs, _objPoints = my_estimatePoseSingleMarkers(
-            corners, 0.1, cameraMatrix, distCoeffs
+            corners, marker_size, cameraMatrix, distCoeffs
         )
         try:
             for rvec, tvec, id in zip(rvecs, tvecs, ids):
@@ -45,6 +47,8 @@ def main():
                     T_inv = np.linalg.inv(T)
                     trans_vec = T_inv[0:3, 3]
                     translation.append(trans_vec.flatten())
+                    # translation.append(tvec.flatten())
+
 
 
         except Exception as e:
@@ -63,7 +67,7 @@ def main():
         i += 1
 
         cv2.imshow("Video", frame_markers)
-        if cv2.waitKey(25) & 0xFF == ord('q'):
+        if cv2.waitKey(5) & 0xFF == ord('q'):
             break
 
 
@@ -101,9 +105,7 @@ def my_estimatePoseSingleMarkers(corners, marker_size, mtx, distortion):
     rvecs = []
     tvecs = []
     for c in corners:
-        nada, R, t = cv2.solvePnP(
-            marker_points, c, mtx, distortion, False, cv2.SOLVEPNP_IPPE_SQUARE
-        )
+        nada, R, t = cv2.solvePnP(marker_points, c, mtx, distortion, useExtrinsicGuess=False, flags=cv2.SOLVEPNP_IPPE_SQUARE)
         rvecs.append(R)
         tvecs.append(t)
         trash.append(nada)

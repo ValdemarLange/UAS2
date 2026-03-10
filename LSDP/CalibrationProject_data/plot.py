@@ -55,8 +55,12 @@ for _, row in df_gt_world.iterrows():
     p_w = np.array([row["x_w"], row["y_w"], row["z_w"]])  # mm
     p_m = R_W_M.T @ (p_w - t_marker)                      # mm in marker frame
     gt_marker_positions.append(p_m)
+    # gt_marker_positions.append(p_w)
+
 
 df_gt = pd.DataFrame(gt_marker_positions, columns=["tx", "ty", "tz"])
+
+
 
 # Tilføj offset fordi marker er ved siden af a4 papir
 offset = np.array([231, -105, 0])  # mm
@@ -86,7 +90,7 @@ axes[0].plot(df_est["tx"], label="tx")
 axes[0].plot(df_est["ty"], label="ty")
 axes[0].plot(df_est["tz"], label="tz")
 axes[0].set_xlabel("Sample")
-axes[0].set_ylabel("Position (m)")
+axes[0].set_ylabel("Position (mm)")
 axes[0].set_title("Estimated camera position in marker frame")
 axes[0].set_ylim(-500, 3500)
 axes[0].legend()
@@ -96,8 +100,9 @@ axes[1].plot(df_gt["tx"], label="tx")
 axes[1].plot(df_gt["ty"], label="ty")
 axes[1].plot(df_gt["tz"], label="tz")
 axes[1].set_xlabel("Sample")
-axes[1].set_ylabel("Position (m)")
+axes[1].set_ylabel("Position (mm)")
 axes[1].set_title("Ground truth transformed to marker frame")
+# axes[1].set_title("Ground truth in world frame")
 axes[1].set_ylim(-500, 3500)
 axes[1].legend()
 axes[1].grid(True)
