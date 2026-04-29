@@ -14,4 +14,6 @@ dependencies = [
     "plotly>=5.0.0",
     "pyopengl>=3.1.5",
     "scikit-learn>=1.6.0",
+    "youtube-dl>=2021.12.17",
+    "yt-dlp>=2026.3.17",
 ]

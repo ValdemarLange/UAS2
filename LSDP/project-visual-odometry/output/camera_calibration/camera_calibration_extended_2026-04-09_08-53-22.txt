@@ -1,0 +1,808 @@
+Time of calibration: 
+2026-04-09 08:53:22
+
+Calibration matrix: 
+[1348.78136721    0.          960.57640716]
+[   0.         1348.57759941  535.73536774]
+[0. 0. 1.]
+
+Calibration matrix uncertainties: 
+[53.52476958  0.         55.48489528]
+[ 0.         51.75817542 45.21576005]
+[0. 0. 1.]
+
+Distortion parameters (k1, k2, p1, p2, k3):
+[[ 0.0203427  -0.06616144 -0.00044114 -0.00043755  0.0936343 ]]
+Distortion parameters (k1, k2, p1, p2, k3) uncertainties:
+[0.18568003 0.64078974 0.00847339 0.01357127 0.66157532]
+
+Summary statistics:
+Image                    Coverage    Avg distor bef   Avg distor aft
+frame00180.jpg            89%        0.3              0.25
+frame00140.jpg            75%        0.34             0.35
+frame00150.jpg            76%        0.35             0.31
+frame00060.jpg            63%        0.21             0.14
+frame00030.jpg            62%        0.16             0.14
+frame00450.jpg            92%        0.41             0.31
+frame00530.jpg            70%        0.28             0.25
+frame00570.jpg            72%        0.38             0.28
+frame00550.jpg            89%        0.29             0.27
+frame00270.jpg            90%        0.42             0.32
+frame00420.jpg            94%        0.5              0.46
+frame00480.jpg            53%        0.36             0.33
+frame00010.jpg            52%        0.16             0.12
+frame00380.jpg            84%        0.3              0.28
+frame00190.jpg            96%        0.4              0.31
+frame00110.jpg            58%        0.27             0.25
+frame00560.jpg            78%        0.3              0.2
+frame00020.jpg            57%        0.15             0.12
+frame00080.jpg            67%        0.27             0.21
+frame00540.jpg            81%        0.38             0.33
+frame00120.jpg            68%        0.36             0.32
+frame00300.jpg            86%        0.26             0.2
+frame00040.jpg            63%        0.21             0.15
+frame00580.jpg            79%        0.24             0.2
+frame00360.jpg            77%        0.39             0.32
+frame00320.jpg            74%        0.24             0.23
+frame00240.jpg           100%        0.54             0.42
+frame00100.jpg            66%        0.27             0.25
+frame00390.jpg            90%        0.51             0.45
+frame00290.jpg            80%        0.39             0.22
+frame00400.jpg            95%        0.58             0.51
+frame00170.jpg            78%        0.39             0.35
+frame00250.jpg           100%        0.52             0.28
+frame00350.jpg            67%        0.31             0.31
+frame00440.jpg            90%        0.36             0.33
+frame00230.jpg           100%        0.53             0.36
+frame00410.jpg            97%        0.59             0.56
+frame00490.jpg            52%        0.25             0.22
+frame00280.jpg            80%        0.41             0.26
+frame00220.jpg           100%        0.46             0.31
+frame00090.jpg            67%        0.25             0.2
+frame00160.jpg            78%        0.34             0.32
+frame00470.jpg            79%        0.41             0.35
+frame00600.jpg            79%        0.3              0.22
+frame00460.jpg           100%        0.58             0.48
+frame00510.jpg            67%        0.28             0.25
+frame00340.jpg            83%        0.33             0.27
+frame00200.jpg           100%        0.44             0.58
+frame00520.jpg            71%        0.46             0.37
+frame00210.jpg           100%        0.48             0.42
+frame00050.jpg            63%        0.2              0.16
+frame00260.jpg           100%        0.43             0.29
+frame00330.jpg            89%        0.26             0.19
+frame00590.jpg            86%        0.35             0.28
+frame00070.jpg            65%        0.24             0.17
+frame00500.jpg            61%        0.29             0.29
+frame00310.jpg            78%        0.24             0.18
+frame00430.jpg            90%        0.45             0.37
+frame00130.jpg            69%        0.36             0.34
+frame00370.jpg            80%        0.32             0.28
+
+Average horizontal distortion before: 0.230 pixels from ideal line
+Average vertical distortion before:   0.230 pixels from ideal line
+Average horizontal distortion after:  0.190 pixels from ideal line
+Average vertical distortion after:    0.200 pixels from ideal line
+Images with a coverage lower than 25% are excluded from the calibration
+
+Extended statistics:
+	frame00180.jpg
+	Percentage of image covered with points: 89%
+		Before undistorting:
+			Horizontal points : 341
+			Average horizontal distortion: 0.200
+			Vertical points : 340
+			Average vertical distortion: 0.191
+		After undistorting:
+			Horizontal points : 332
+			Average horizontal distortion: 0.153
+			Vertical points : 330
+			Average vertical distortion: 0.203
+	frame00140.jpg
+	Percentage of image covered with points: 75%
+		Before undistorting:
+			Horizontal points : 351
+			Average horizontal distortion: 0.229
+			Vertical points : 351
+			Average vertical distortion: 0.222
+		After undistorting:
+			Horizontal points : 352
+			Average horizontal distortion: 0.213
+			Vertical points : 352
+			Average vertical distortion: 0.270
+	frame00150.jpg
+	Percentage of image covered with points: 76%
+		Before undistorting:
+			Horizontal points : 335
+			Average horizontal distortion: 0.247
+			Vertical points : 335
+			Average vertical distortion: 0.208
+		After undistorting:
+			Horizontal points : 325
+			Average horizontal distortion: 0.195
+			Vertical points : 325
+			Average vertical distortion: 0.223
+	frame00060.jpg
+	Percentage of image covered with points: 63%
+		Before undistorting:
+			Horizontal points : 451
+			Average horizontal distortion: 0.144
+			Vertical points : 451
+			Average vertical distortion: 0.124
+		After undistorting:
+			Horizontal points : 452
+			Average horizontal distortion: 0.085
+			Vertical points : 452
+			Average vertical distortion: 0.113
+	frame00030.jpg
+	Percentage of image covered with points: 62%
+		Before undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.091
+			Vertical points : 456
+			Average vertical distortion: 0.138
+		After undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.100
+			Vertical points : 456
+			Average vertical distortion: 0.088
+	frame00450.jpg
+	Percentage of image covered with points: 92%
+		Before undistorting:
+			Horizontal points : 341
+			Average horizontal distortion: 0.261
+			Vertical points : 341
+			Average vertical distortion: 0.296
+		After undistorting:
+			Horizontal points : 339
+			Average horizontal distortion: 0.208
+			Vertical points : 339
+			Average vertical distortion: 0.200
+	frame00530.jpg
+	Percentage of image covered with points: 70%
+		Before undistorting:
+			Horizontal points : 323
+			Average horizontal distortion: 0.192
+			Vertical points : 324
+			Average vertical distortion: 0.172
+		After undistorting:
+			Horizontal points : 323
+			Average horizontal distortion: 0.168
+			Vertical points : 323
+			Average vertical distortion: 0.166
+	frame00570.jpg
+	Percentage of image covered with points: 72%
+		Before undistorting:
+			Horizontal points : 312
+			Average horizontal distortion: 0.168
+			Vertical points : 312
+			Average vertical distortion: 0.419
+		After undistorting:
+			Horizontal points : 312
+			Average horizontal distortion: 0.116
+			Vertical points : 312
+			Average vertical distortion: 0.331
+	frame00550.jpg
+	Percentage of image covered with points: 89%
+		Before undistorting:
+			Horizontal points : 425
+			Average horizontal distortion: 0.210
+			Vertical points : 425
+			Average vertical distortion: 0.166
+		After undistorting:
+			Horizontal points : 425
+			Average horizontal distortion: 0.170
+			Vertical points : 425
+			Average vertical distortion: 0.190
+	frame00270.jpg
+	Percentage of image covered with points: 90%
+		Before undistorting:
+			Horizontal points : 310
+			Average horizontal distortion: 0.283
+			Vertical points : 310
+			Average vertical distortion: 0.276
+		After undistorting:
+			Horizontal points : 309
+			Average horizontal distortion: 0.232
+			Vertical points : 309
+			Average vertical distortion: 0.169
+	frame00420.jpg
+	Percentage of image covered with points: 94%
+		Before undistorting:
+			Horizontal points : 340
+			Average horizontal distortion: 0.349
+			Vertical points : 340
+			Average vertical distortion: 0.306
+		After undistorting:
+			Horizontal points : 349
+			Average horizontal distortion: 0.331
+			Vertical points : 349
+			Average vertical distortion: 0.262
+	frame00480.jpg
+	Percentage of image covered with points: 53%
+		Before undistorting:
+			Horizontal points : 183
+			Average horizontal distortion: 0.214
+			Vertical points : 185
+			Average vertical distortion: 0.285
+		After undistorting:
+			Horizontal points : 186
+			Average horizontal distortion: 0.197
+			Vertical points : 186
+			Average vertical distortion: 0.275
+	frame00010.jpg
+	Percentage of image covered with points: 52%
+		Before undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.087
+			Vertical points : 456
+			Average vertical distortion: 0.152
+		After undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.073
+			Vertical points : 456
+			Average vertical distortion: 0.096
+	frame00380.jpg
+	Percentage of image covered with points: 84%
+		Before undistorting:
+			Horizontal points : 374
+			Average horizontal distortion: 0.198
+			Vertical points : 374
+			Average vertical distortion: 0.210
+		After undistorting:
+			Horizontal points : 370
+			Average horizontal distortion: 0.202
+			Vertical points : 370
+			Average vertical distortion: 0.152
+	frame00190.jpg
+	Percentage of image covered with points: 96%
+		Before undistorting:
+			Horizontal points : 317
+			Average horizontal distortion: 0.278
+			Vertical points : 314
+			Average vertical distortion: 0.245
+		After undistorting:
+			Horizontal points : 316
+			Average horizontal distortion: 0.177
+			Vertical points : 312
+			Average vertical distortion: 0.268
+	frame00110.jpg
+	Percentage of image covered with points: 58%
+		Before undistorting:
+			Horizontal points : 384
+			Average horizontal distortion: 0.177
+			Vertical points : 385
+			Average vertical distortion: 0.189
+		After undistorting:
+			Horizontal points : 385
+			Average horizontal distortion: 0.158
+			Vertical points : 385
+			Average vertical distortion: 0.181
+	frame00560.jpg
+	Percentage of image covered with points: 78%
+		Before undistorting:
+			Horizontal points : 332
+			Average horizontal distortion: 0.163
+			Vertical points : 332
+			Average vertical distortion: 0.267
+		After undistorting:
+			Horizontal points : 333
+			Average horizontal distortion: 0.122
+			Vertical points : 332
+			Average vertical distortion: 0.147
+	frame00020.jpg
+	Percentage of image covered with points: 57%
+		Before undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.089
+			Vertical points : 456
+			Average vertical distortion: 0.129
+		After undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.079
+			Vertical points : 456
+			Average vertical distortion: 0.079
+	frame00080.jpg
+	Percentage of image covered with points: 67%
+		Before undistorting:
+			Horizontal points : 442
+			Average horizontal distortion: 0.172
+			Vertical points : 442
+			Average vertical distortion: 0.190
+		After undistorting:
+			Horizontal points : 443
+			Average horizontal distortion: 0.134
+			Vertical points : 443
+			Average vertical distortion: 0.156
+	frame00540.jpg
+	Percentage of image covered with points: 81%
+		Before undistorting:
+			Horizontal points : 384
+			Average horizontal distortion: 0.241
+			Vertical points : 384
+			Average vertical distortion: 0.283
+		After undistorting:
+			Horizontal points : 385
+			Average horizontal distortion: 0.217
+			Vertical points : 385
+			Average vertical distortion: 0.225
+	frame00120.jpg
+	Percentage of image covered with points: 68%
+		Before undistorting:
+			Horizontal points : 384
+			Average horizontal distortion: 0.250
+			Vertical points : 384
+			Average vertical distortion: 0.226
+		After undistorting:
+			Horizontal points : 385
+			Average horizontal distortion: 0.215
+			Vertical points : 385
+			Average vertical distortion: 0.210
+	frame00300.jpg
+	Percentage of image covered with points: 86%
+		Before undistorting:
+			Horizontal points : 351
+			Average horizontal distortion: 0.144
+			Vertical points : 351
+			Average vertical distortion: 0.236
+		After undistorting:
+			Horizontal points : 351
+			Average horizontal distortion: 0.124
+			Vertical points : 351
+			Average vertical distortion: 0.149
+	frame00040.jpg
+	Percentage of image covered with points: 63%
+		Before undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.141
+			Vertical points : 456
+			Average vertical distortion: 0.139
+		After undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.112
+			Vertical points : 456
+			Average vertical distortion: 0.086
+	frame00580.jpg
+	Percentage of image covered with points: 79%
+		Before undistorting:
+			Horizontal points : 353
+			Average horizontal distortion: 0.169
+			Vertical points : 352
+			Average vertical distortion: 0.137
+		After undistorting:
+			Horizontal points : 355
+			Average horizontal distortion: 0.119
+			Vertical points : 353
+			Average vertical distortion: 0.167
+	frame00360.jpg
+	Percentage of image covered with points: 77%
+		Before undistorting:
+			Horizontal points : 350
+			Average horizontal distortion: 0.249
+			Vertical points : 350
+			Average vertical distortion: 0.286
+		After undistorting:
+			Horizontal points : 347
+			Average horizontal distortion: 0.198
+			Vertical points : 347
+			Average vertical distortion: 0.250
+	frame00320.jpg
+	Percentage of image covered with points: 74%
+		Before undistorting:
+			Horizontal points : 304
+			Average horizontal distortion: 0.166
+			Vertical points : 306
+			Average vertical distortion: 0.143
+		After undistorting:
+			Horizontal points : 305
+			Average horizontal distortion: 0.176
+			Vertical points : 305
+			Average vertical distortion: 0.113
+	frame00240.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 276
+			Average horizontal distortion: 0.342
+			Vertical points : 276
+			Average vertical distortion: 0.405
+		After undistorting:
+			Horizontal points : 274
+			Average horizontal distortion: 0.248
+			Vertical points : 276
+			Average vertical distortion: 0.339
+	frame00100.jpg
+	Percentage of image covered with points: 66%
+		Before undistorting:
+			Horizontal points : 415
+			Average horizontal distortion: 0.185
+			Vertical points : 415
+			Average vertical distortion: 0.176
+		After undistorting:
+			Horizontal points : 416
+			Average horizontal distortion: 0.175
+			Vertical points : 416
+			Average vertical distortion: 0.151
+	frame00390.jpg
+	Percentage of image covered with points: 90%
+		Before undistorting:
+			Horizontal points : 345
+			Average horizontal distortion: 0.370
+			Vertical points : 343
+			Average vertical distortion: 0.277
+		After undistorting:
+			Horizontal points : 342
+			Average horizontal distortion: 0.338
+			Vertical points : 342
+			Average vertical distortion: 0.226
+	frame00290.jpg
+	Percentage of image covered with points: 80%
+		Before undistorting:
+			Horizontal points : 355
+			Average horizontal distortion: 0.269
+			Vertical points : 355
+			Average vertical distortion: 0.235
+		After undistorting:
+			Horizontal points : 356
+			Average horizontal distortion: 0.158
+			Vertical points : 356
+			Average vertical distortion: 0.123
+	frame00400.jpg
+	Percentage of image covered with points: 95%
+		Before undistorting:
+			Horizontal points : 343
+			Average horizontal distortion: 0.427
+			Vertical points : 343
+			Average vertical distortion: 0.300
+		After undistorting:
+			Horizontal points : 344
+			Average horizontal distortion: 0.396
+			Vertical points : 344
+			Average vertical distortion: 0.219
+	frame00170.jpg
+	Percentage of image covered with points: 78%
+		Before undistorting:
+			Horizontal points : 329
+			Average horizontal distortion: 0.263
+			Vertical points : 329
+			Average vertical distortion: 0.246
+		After undistorting:
+			Horizontal points : 329
+			Average horizontal distortion: 0.229
+			Vertical points : 329
+			Average vertical distortion: 0.245
+	frame00250.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 283
+			Average horizontal distortion: 0.381
+			Vertical points : 283
+			Average vertical distortion: 0.273
+		After undistorting:
+			Horizontal points : 283
+			Average horizontal distortion: 0.203
+			Vertical points : 283
+			Average vertical distortion: 0.161
+	frame00350.jpg
+	Percentage of image covered with points: 67%
+		Before undistorting:
+			Horizontal points : 313
+			Average horizontal distortion: 0.211
+			Vertical points : 313
+			Average vertical distortion: 0.208
+		After undistorting:
+			Horizontal points : 314
+			Average horizontal distortion: 0.222
+			Vertical points : 314
+			Average vertical distortion: 0.173
+	frame00440.jpg
+	Percentage of image covered with points: 90%
+		Before undistorting:
+			Horizontal points : 338
+			Average horizontal distortion: 0.247
+			Vertical points : 338
+			Average vertical distortion: 0.231
+		After undistorting:
+			Horizontal points : 322
+			Average horizontal distortion: 0.228
+			Vertical points : 322
+			Average vertical distortion: 0.210
+	frame00230.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 267
+			Average horizontal distortion: 0.349
+			Vertical points : 267
+			Average vertical distortion: 0.359
+		After undistorting:
+			Horizontal points : 268
+			Average horizontal distortion: 0.225
+			Vertical points : 268
+			Average vertical distortion: 0.277
+	frame00410.jpg
+	Percentage of image covered with points: 97%
+		Before undistorting:
+			Horizontal points : 364
+			Average horizontal distortion: 0.396
+			Vertical points : 364
+			Average vertical distortion: 0.392
+		After undistorting:
+			Horizontal points : 364
+			Average horizontal distortion: 0.420
+			Vertical points : 364
+			Average vertical distortion: 0.283
+	frame00490.jpg
+	Percentage of image covered with points: 52%
+		Before undistorting:
+			Horizontal points : 199
+			Average horizontal distortion: 0.117
+			Vertical points : 199
+			Average vertical distortion: 0.263
+		After undistorting:
+			Horizontal points : 199
+			Average horizontal distortion: 0.124
+			Vertical points : 199
+			Average vertical distortion: 0.195
+	frame00280.jpg
+	Percentage of image covered with points: 80%
+		Before undistorting:
+			Horizontal points : 339
+			Average horizontal distortion: 0.251
+			Vertical points : 339
+			Average vertical distortion: 0.320
+		After undistorting:
+			Horizontal points : 338
+			Average horizontal distortion: 0.166
+			Vertical points : 336
+			Average vertical distortion: 0.185
+	frame00220.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 265
+			Average horizontal distortion: 0.296
+			Vertical points : 265
+			Average vertical distortion: 0.320
+		After undistorting:
+			Horizontal points : 266
+			Average horizontal distortion: 0.178
+			Vertical points : 266
+			Average vertical distortion: 0.262
+	frame00090.jpg
+	Percentage of image covered with points: 67%
+		Before undistorting:
+			Horizontal points : 447
+			Average horizontal distortion: 0.179
+			Vertical points : 447
+			Average vertical distortion: 0.152
+		After undistorting:
+			Horizontal points : 447
+			Average horizontal distortion: 0.126
+			Vertical points : 447
+			Average vertical distortion: 0.157
+	frame00160.jpg
+	Percentage of image covered with points: 78%
+		Before undistorting:
+			Horizontal points : 351
+			Average horizontal distortion: 0.264
+			Vertical points : 351
+			Average vertical distortion: 0.157
+		After undistorting:
+			Horizontal points : 342
+			Average horizontal distortion: 0.245
+			Vertical points : 341
+			Average vertical distortion: 0.148
+	frame00470.jpg
+	Percentage of image covered with points: 79%
+		Before undistorting:
+			Horizontal points : 246
+			Average horizontal distortion: 0.272
+			Vertical points : 245
+			Average vertical distortion: 0.272
+		After undistorting:
+			Horizontal points : 245
+			Average horizontal distortion: 0.206
+			Vertical points : 244
+			Average vertical distortion: 0.290
+	frame00600.jpg
+	Percentage of image covered with points: 79%
+		Before undistorting:
+			Horizontal points : 382
+			Average horizontal distortion: 0.204
+			Vertical points : 382
+			Average vertical distortion: 0.188
+		After undistorting:
+			Horizontal points : 382
+			Average horizontal distortion: 0.143
+			Vertical points : 382
+			Average vertical distortion: 0.151
+	frame00460.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 319
+			Average horizontal distortion: 0.424
+			Vertical points : 319
+			Average vertical distortion: 0.314
+		After undistorting:
+			Horizontal points : 321
+			Average horizontal distortion: 0.341
+			Vertical points : 321
+			Average vertical distortion: 0.271
+	frame00510.jpg
+	Percentage of image covered with points: 67%
+		Before undistorting:
+			Horizontal points : 308
+			Average horizontal distortion: 0.166
+			Vertical points : 308
+			Average vertical distortion: 0.224
+		After undistorting:
+			Horizontal points : 309
+			Average horizontal distortion: 0.128
+			Vertical points : 309
+			Average vertical distortion: 0.236
+	frame00340.jpg
+	Percentage of image covered with points: 83%
+		Before undistorting:
+			Horizontal points : 353
+			Average horizontal distortion: 0.226
+			Vertical points : 353
+			Average vertical distortion: 0.199
+		After undistorting:
+			Horizontal points : 353
+			Average horizontal distortion: 0.170
+			Vertical points : 353
+			Average vertical distortion: 0.190
+	frame00200.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 300
+			Average horizontal distortion: 0.310
+			Vertical points : 300
+			Average vertical distortion: 0.251
+		After undistorting:
+			Horizontal points : 304
+			Average horizontal distortion: 0.460
+			Vertical points : 304
+			Average vertical distortion: 0.234
+	frame00520.jpg
+	Percentage of image covered with points: 71%
+		Before undistorting:
+			Horizontal points : 329
+			Average horizontal distortion: 0.347
+			Vertical points : 329
+			Average vertical distortion: 0.219
+		After undistorting:
+			Horizontal points : 329
+			Average horizontal distortion: 0.285
+			Vertical points : 329
+			Average vertical distortion: 0.162
+	frame00210.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 263
+			Average horizontal distortion: 0.333
+			Vertical points : 263
+			Average vertical distortion: 0.291
+		After undistorting:
+			Horizontal points : 264
+			Average horizontal distortion: 0.268
+			Vertical points : 264
+			Average vertical distortion: 0.301
+	frame00050.jpg
+	Percentage of image covered with points: 63%
+		Before undistorting:
+			Horizontal points : 452
+			Average horizontal distortion: 0.140
+			Vertical points : 452
+			Average vertical distortion: 0.130
+		After undistorting:
+			Horizontal points : 453
+			Average horizontal distortion: 0.091
+			Vertical points : 453
+			Average vertical distortion: 0.138
+	frame00260.jpg
+	Percentage of image covered with points: 100%
+		Before undistorting:
+			Horizontal points : 290
+			Average horizontal distortion: 0.283
+			Vertical points : 292
+			Average vertical distortion: 0.291
+		After undistorting:
+			Horizontal points : 290
+			Average horizontal distortion: 0.195
+			Vertical points : 292
+			Average vertical distortion: 0.199
+	frame00330.jpg
+	Percentage of image covered with points: 89%
+		Before undistorting:
+			Horizontal points : 359
+			Average horizontal distortion: 0.173
+			Vertical points : 359
+			Average vertical distortion: 0.170
+		After undistorting:
+			Horizontal points : 358
+			Average horizontal distortion: 0.115
+			Vertical points : 358
+			Average vertical distortion: 0.144
+	frame00590.jpg
+	Percentage of image covered with points: 86%
+		Before undistorting:
+			Horizontal points : 379
+			Average horizontal distortion: 0.225
+			Vertical points : 379
+			Average vertical distortion: 0.253
+		After undistorting:
+			Horizontal points : 380
+			Average horizontal distortion: 0.159
+			Vertical points : 380
+			Average vertical distortion: 0.252
+	frame00070.jpg
+	Percentage of image covered with points: 65%
+		Before undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.146
+			Vertical points : 456
+			Average vertical distortion: 0.188
+		After undistorting:
+			Horizontal points : 456
+			Average horizontal distortion: 0.087
+			Vertical points : 456
+			Average vertical distortion: 0.164
+	frame00500.jpg
+	Percentage of image covered with points: 61%
+		Before undistorting:
+			Horizontal points : 261
+			Average horizontal distortion: 0.186
+			Vertical points : 261
+			Average vertical distortion: 0.215
+		After undistorting:
+			Horizontal points : 262
+			Average horizontal distortion: 0.187
+			Vertical points : 262
+			Average vertical distortion: 0.208
+	frame00310.jpg
+	Percentage of image covered with points: 78%
+		Before undistorting:
+			Horizontal points : 321
+			Average horizontal distortion: 0.156
+			Vertical points : 321
+			Average vertical distortion: 0.159
+		After undistorting:
+			Horizontal points : 321
+			Average horizontal distortion: 0.136
+			Vertical points : 321
+			Average vertical distortion: 0.092
+	frame00430.jpg
+	Percentage of image covered with points: 90%
+		Before undistorting:
+			Horizontal points : 332
+			Average horizontal distortion: 0.290
+			Vertical points : 332
+			Average vertical distortion: 0.314
+		After undistorting:
+			Horizontal points : 322
+			Average horizontal distortion: 0.244
+			Vertical points : 322
+			Average vertical distortion: 0.256
+	frame00130.jpg
+	Percentage of image covered with points: 69%
+		Before undistorting:
+			Horizontal points : 363
+			Average horizontal distortion: 0.274
+			Vertical points : 363
+			Average vertical distortion: 0.166
+		After undistorting:
+			Horizontal points : 364
+			Average horizontal distortion: 0.263
+			Vertical points : 364
+			Average vertical distortion: 0.162
+	frame00370.jpg
+	Percentage of image covered with points: 80%
+		Before undistorting:
+			Horizontal points : 371
+			Average horizontal distortion: 0.211
+			Vertical points : 371
+			Average vertical distortion: 0.210
+		After undistorting:
+			Horizontal points : 363
+			Average horizontal distortion: 0.169
+			Vertical points : 363
+			Average vertical distortion: 0.224

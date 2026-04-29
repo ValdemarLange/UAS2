@@ -1,0 +1,57 @@
+---
+title: "Miniproject - Visual odometry"
+author: "Henrik Skov Midtiby"
+date: "2026-04-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(cowplot)
+```
+
+```{r}
+raw_data <- readr::read_csv('output/camera_track.txt', col_names = "raw_string")
+```
+
+```{r}
+filenames <- list.files("extracted_frames/") %>%
+  tibble(filename = .) %>%
+  mutate(frame_idx = row_number() - 1)
+```
+
+
+
+```{r}
+raw_data %>%
+  mutate(frame_idx = str_extract(raw_string, "\\[(\\d+)\\]", group=1), 
+         camera_position = str_extract(raw_string, "\\((.*\\)).*\\((.*)\\)", group=2), 
+         pos_x = str_extract(camera_position, "(.*) (.*) (.*)", group=1), 
+         pos_y = str_extract(camera_position, "(.*) (.*) (.*)", group=2), 
+         pos_z = str_extract(camera_position, "(.*) (.*) (.*)", group=3)) %>%
+  select(frame_idx, pos_x, pos_y, pos_z) %>%
+  mutate_if(is.character, as.numeric) %>%
+  left_join(filenames, by = c("frame_idx")) -> 
+  data
+```
+
+```{r}
+data %>%
+  ggplot() + 
+  aes(color = frame_idx) + 
+  aes(x = pos_x) + 
+  aes(y = -pos_y) + 
+  aes(label = filename) + 
+  geom_point() + 
+  geom_path() +
+  geom_text(nudge_y = 0.2, size=1.5) + 
+  coord_fixed() +
+  # coord_fixed(xlim = c(-1.2, 1.2), 
+  #             ylim = c(-1.2, 1.2)) +
+  theme_cowplot()
+ggsave("output/camera_track.pdf", 
+       height=10, 
+       width=12.5)
+```
+

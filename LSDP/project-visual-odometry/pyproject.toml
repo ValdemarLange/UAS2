@@ -1,0 +1,16 @@
+[project]
+name = "project-visual-odometry"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "g2opy>=2.2.0",
+    "icecream>=2.2.0",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.2.0",
+    "pygame>=2.6.1",
+    "pyopengl>=3.1.10",
+    "ruff>=0.15.9",
+]
